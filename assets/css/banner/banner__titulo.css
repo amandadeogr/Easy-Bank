@@ -1,0 +1,5 @@
+.banner__titulo {
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--cor-titulos);
+}

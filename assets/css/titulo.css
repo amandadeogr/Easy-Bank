@@ -1,0 +1,6 @@
+.titulo {
+    color: var(--cor-titulos);
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 1rem;
+}

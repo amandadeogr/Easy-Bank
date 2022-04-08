@@ -1,0 +1,10 @@
+.motivos > .delimita-espaco {
+    width: 85%;
+    margin: auto;
+}
+
+.motivos {
+    color: var(--cor-textos);
+    background-color: #f4f4f4;
+    padding: 5rem 0;
+}

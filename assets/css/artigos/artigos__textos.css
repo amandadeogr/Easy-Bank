@@ -1,0 +1,6 @@
+.artigos__textos {
+    width: 80%;
+    color: var(--cor-textos);
+    font-size: .9rem;
+    margin-top: 1rem;
+}

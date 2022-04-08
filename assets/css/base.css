@@ -1,0 +1,18 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+:root {
+    --cor-textos: hsl(233, 8%, 62%);
+    --cor-titulos: hsl(233, 26%, 24%);
+}
+
+.attribution {
+    display: block;
+    text-align: center;
+}

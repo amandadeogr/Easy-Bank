@@ -1,0 +1,4 @@
+.artigos__titulo {
+    color: var(--cor-titulos);
+    padding: .5rem 0;
+}
