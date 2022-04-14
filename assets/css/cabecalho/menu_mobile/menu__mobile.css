@@ -1,0 +1,21 @@
+.menu__mobile {
+   position: fixed;
+   width: 50vw;
+   height: auto;
+   left: 4.5rem;
+   top: 5rem;
+   padding: 3rem;
+   background-color: white;
+   text-align: center;
+   display: none;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   color: #494949ce;
+}
+
+@media (max-width: 400px) {
+   .menu__mobile {
+      left: 3.2rem;
+      top: 5rem;
+   }
+}

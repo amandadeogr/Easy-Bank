@@ -1,0 +1,9 @@
+.rodape__sociais {
+    margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+    .rodape__sociais {
+        padding: 1rem 0;
+    }
+}

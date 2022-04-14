@@ -2,3 +2,10 @@
     width: 55%;
     margin: auto;
 }
+
+@media (max-width: 500px) {
+    .delimita-espaco {
+        width: 80%;
+        text-align: center;
+    }
+}

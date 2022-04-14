@@ -1,0 +1,10 @@
+.rodape__menu {
+    width: 350px;
+    line-height: 2rem;
+}
+
+@media (max-width: 600px) {
+    .rodape__menu {
+        padding-bottom: 1rem;
+    }
+}

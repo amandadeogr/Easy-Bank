@@ -8,3 +8,10 @@
     background-color: #f4f4f4;
     padding: 5rem 0;
 }
+
+@media (max-width: 600px) {
+    .motivos > .delimita-espaco {
+        width: 70%;
+        margin: auto;
+    }
+}

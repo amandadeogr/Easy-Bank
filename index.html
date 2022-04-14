@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
 
@@ -17,15 +17,16 @@
   <link rel="stylesheet" href="/assets/css/flex.css">
   <link rel="stylesheet" href="/assets/css/titulo.css">
   <link rel="stylesheet" href="/assets/css/btn.css">
+  <link rel="stylesheet" href="/assets/css/column.css">
 
    <!-- Cabecalho -->
   <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho.css">
   <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho__logo.css">
-  <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho__menu.css">
+  <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho__menu.css"> 
+  <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho__menu__mobile.css">
   <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho__menu-item.css">
   <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho__menu-link.css">
   <link rel="stylesheet" href="/assets/css/cabecalho/cabecalho__botao.css">
-
   <!-- Banner -->
   <link rel="stylesheet" href="/assets/css/banner/banner.css">
   <link rel="stylesheet" href="/assets/css/banner/banner__imagem.css">
@@ -57,11 +58,56 @@
 
   <!-- Rodapé --> 
   <link rel="stylesheet" href="/assets/css/rodape/rodape.css">
+  <link rel="stylesheet" href="/assets/css/rodape/rodape__menu.css">
+  <link rel="stylesheet" href="assets/css/rodape/rodape__sociais.css">
+  <link rel="stylesheet" href="/assets/css/rodape/rodape__botao.css">
+  <link rel="stylesheet" href="/assets/css/rodape/rodape__direitos.css">
+  <link rel="stylesheet" href="/assets/css/rodape/rodape__navegacao-link.css">
+  <link rel="stylesheet" href="/assets/css/rodape/rodape__icone.css">
+  <link rel="stylesheet" href="/assets/css/rodape/rodape__botao-direitos.css">
   
+  <link rel="stylesheet" href="assets/css/cabecalho/menu_mobile/config__menu__mobile.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/menu_mobile/menu__mobile.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/menu_mobile/menu__mobile-botao.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/menu_mobile/menu__mobile__item.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/menu_mobile/menu__mobile__link.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/menu_mobile/menu__mobile__close.css">
 </head>
 <body>
   <header class="cabecalho flex">
     <img src="/assets/images/logo.svg" alt="" class="cabecalho__logo logo">
+
+    <div class="config__menu__mobile">
+      <button class="menu__mobile__botao">
+        <img src="/assets/images/icon-hamburger.svg" alt="" srcset="">
+      </button>
+      <button class="menu__mobile__close">
+        <img src="/assets/images/icon-close.svg" alt="" srcset="">
+      </button>
+
+    <ul class="menu__mobile flex column">
+      <li class="menu__mobile__item">
+        <a href="" class="menu__mobile__link">Home</a>
+      </li>
+
+      <li class="menu__mobile__item">
+        <a href="" class="menu__mobile__link">About</a>
+      </li>
+
+      <li class="menu__mobile__item">
+        <a href="" class="menu__mobile__link">Contact</a>
+      </li>
+
+      <li class="menu__mobile__item">
+        <a href="" class="menu__mobile__link">Blog</a>
+      </li>
+
+      <li class="menu__mobile__item">
+        <a href="" class="menu__mobile__link">Careers</a>
+      </li>
+    </ul>
+    </div>
+    
 
     <ul class="cabecalho__menu flex">
       <li class="cabecalho__menu-item">
@@ -116,7 +162,7 @@
         </p>
       </div>
   
-        <ul class="motivos__vantagens flex">
+        <ul class="motivos__vantagens flex column">
           <li class="motivos__item">
             <img src="/assets/images/icon-online.svg" alt="" class="motivos__imagem">
             <h3 class="motivos__titulo titulo">Online Banking</h3>
@@ -155,7 +201,7 @@
   <section class="artigos">
       <h2 class="artigos__titulo titulo">Latest Articles</h2>
 
-      <ul class="artigos__box flex">
+      <ul class="artigos__box flex column">
         <li class="artigos__item">
           <img src="/assets/images/image-currency.jpg" alt="" class="artigos__imagem">
           <div class="artigos__textos">
@@ -202,53 +248,71 @@
       </ul>
   </section>
 
-  <footer class="rodape flex">
+  <footer class="rodape flex column">
     <div class="parte1">
       <img src="/assets/images/logo-branco.svg" alt="" class="rodape__logo">
 
-      <ul class="rodape__sociais flex">
+      <ul class="rodape__sociais flex ">
         <li class="rodape__item">
-          <img src="/assets/images/icon-facebook.svg" alt="">
+          <a href="" class="rodape__link">
+            <img src="/assets/images/icon-facebook.svg" alt="" class="rodape__icone">
+          </a>
         </li>
+
         <li class="rodape__item">
-          <img src="/assets/images/icon-youtube.svg" alt="">
+          <a href="" class="rodape__link">
+            <img src="/assets/images/icon-youtube.svg" alt="" class="rodape__icone">
+          </a>
         </li>
+
         <li class="rodape__item">
-          <img src="/assets/images/icon-twitter.svg" alt="">
+          <a href="" class="rodape__link">
+            <img src="/assets/images/icon-twitter.svg" alt="" class="">
+          </a>
         </li>
+
         <li class="rodape__item">
-          <img src="/assets/images/icon-pinterest.svg" alt="">
+          <a href="" class="rodape__link">
+            <img src="/assets/images/icon-pinterest.svg" alt="" class="rodape__icone">
+          </a>
         </li>
+
         <li class="rodape__item">
-          <img src="/assets/images/icon-instagram.svg" alt="">
+          <a href="" class="rodape__link">
+            <img src="/assets/images/icon-instagram.svg" alt="" class="rodape__icone">
+          </a>
         </li>
+
       </ul>
     </div>
 
-    <div class="parte2">
+    <div class="rodape__menu parte2 flex column">
       <ul class="rodape__navegacao">
         <li class="rodape__navegacao-menu">
-          <a href="" class="navegacao__link">About Us</a>
+          <a href="" class="rodape__navegacao-link">About Us</a>
         </li>
         <li class="rodape__navegacao-menu">
-          <a href="" class="navegacao__link">Contact</a>
+          <a href="" class="rodape__navegacao-link">Contact</a>
         </li>
         <li class="rodape__navegacao-menu">
-          <a href="" class="navegacao__link">Blog</a>
+          <a href="" class="rodape__navegacao-link">Blog</a>
+        </li>
+      </ul>
+
+      <ul class="rodape__navegacao">
+        <li class="rodape__navegacao-menu">
+          <a href="" class="rodape__navegacao-link">Careers</a>
         </li>
         <li class="rodape__navegacao-menu">
-          <a href="" class="navegacao__link">Careers</a>
+          <a href="" class="rodape__navegacao-link">Support</a>
         </li>
         <li class="rodape__navegacao-menu">
-          <a href="" class="navegacao__link">Support</a>
-        </li>
-        <li class="rodape__navegacao-menu">
-          <a href="" class="navegacao__link">Privacy Policy</a>
+          <a href="" class="rodape__navegacao-link">Privacy Policy</a>
         </li>
       </ul>
     </div>
 
-    <div class="parte3">
+    <div class="rodape__botao-direitos parte3 flex ">
       <button class=" rodape__botao btn">Request Invite</button>
 
       <p class="rodape__direitos">© Easybank. All Rights Reserved</p>
@@ -257,7 +321,9 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Amanda Ramirez</a>.
   </div>
+
+  <script src="/assets/script/menu-mobile.js"></script>
 </body>
 </html>

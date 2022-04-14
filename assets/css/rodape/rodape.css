@@ -1,3 +1,5 @@
 .rodape {
     background-color: var(--cor-titulos);
+    padding: 2rem;
+    text-align: center;
 }

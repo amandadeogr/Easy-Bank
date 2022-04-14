@@ -1,0 +1,6 @@
+.rodape__icone:hover  {
+   border-bottom: 2px solid var(--cor-hover);
+   padding-bottom: .3rem;
+   margin-top: -.4rem;
+   transition: .3s;
+}

@@ -10,9 +10,24 @@
 :root {
     --cor-textos: hsl(233, 8%, 62%);
     --cor-titulos: hsl(233, 26%, 24%);
+    --cor-hover: hsl(136, 65%, 51%);
 }
 
 .attribution {
     display: block;
     text-align: center;
+    padding-bottom: 1rem;
+    background-color: var(--cor-titulos);
+    color: white;
+    width: 100vw;
+}
+
+.attribution a {
+    color: var(--cor-textos);
+}
+
+
+a:hover {
+    color: var(--cor-hover);
+    transition: .5s;
 }

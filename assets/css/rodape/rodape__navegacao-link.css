@@ -1,0 +1,8 @@
+.rodape__navegacao-link {
+    color: white;
+}
+
+.rodape__navegacao-link:hover {
+    color: hsl(136, 65%, 51%);
+    transition: .5s;
+}

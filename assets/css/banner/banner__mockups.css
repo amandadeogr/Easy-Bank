@@ -1,3 +1,9 @@
 .banner__mockups {
     width: 75%;
 }
+
+@media (max-width: 500px) {
+    .banner__mockups {
+       width: 100%;
+    }
+ }

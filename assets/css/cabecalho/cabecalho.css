@@ -3,4 +3,32 @@
     background-color: white;
     position: fixed;
     width: 100%;
+    margin: auto;
 }
+
+@media (max-width: 800px) {
+    .cabecalho {
+       width: 100vw;
+       justify-content: space-around;
+       padding:1rem ;
+       position: fixed;
+    }
+ }
+
+@media (max-width: 500px) {
+    .cabecalho {
+       width: 92vw;
+       justify-content: space-around;
+       padding:1rem ;
+       position: fixed;
+    }
+ }
+
+ @media (max-width: 380px) {
+    .cabecalho {
+       width: 91vw;
+       justify-content: space-around;
+       padding:1rem ;
+       position: fixed;
+    }
+ }

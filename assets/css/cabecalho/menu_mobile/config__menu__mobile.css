@@ -1,0 +1,9 @@
+.config__menu__mobile {
+   display: none;
+}
+
+@media (max-width: 500px) {
+   .config__menu__mobile {
+      display: block;
+   }
+}

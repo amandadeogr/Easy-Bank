@@ -1,3 +1,10 @@
 .motivos__textos {
     width: 50%;
 }
+
+@media (max-width: 500px) {
+    .motivos__textos {
+        width: 100%;
+        text-align: center;
+    }
+}
