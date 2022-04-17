@@ -5,6 +5,7 @@
     padding: 0;
     border: 0;
     font-family: 'Public Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 :root {
@@ -20,6 +21,7 @@
     background-color: var(--cor-titulos);
     color: white;
     width: 100vw;
+    padding: 1rem 0;
 }
 
 .attribution a {
@@ -29,5 +31,6 @@
 
 a:hover {
     color: var(--cor-hover);
-    transition: .5s;
+    transition: .3s;
 }
+

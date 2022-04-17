@@ -2,3 +2,7 @@
     color: var(--cor-titulos);
     padding: .5rem 0;
 }
+
+.artigos__titulo:hover {
+    cursor: pointer;
+}

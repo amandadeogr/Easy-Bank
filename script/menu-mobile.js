@@ -23,5 +23,4 @@ closeMenu.onclick = function () {
 
 botaoMobile.onclick = function () {
    exibeMenuMobile();
-   console.log("Botao clicado")
 }
