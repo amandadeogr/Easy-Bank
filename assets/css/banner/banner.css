@@ -1,5 +1,6 @@
 @media (max-width: 500px) {
    .banner {
       flex-direction: column-reverse;
+      padding-bottom: 2rem;
    }
 }
