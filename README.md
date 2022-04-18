@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-easybank-landing-page-using-grid-flexbox-r18uUU945)
+- Solution URL: (https://www.frontendmentor.io/solutions/easy-bank-landing-page-ry2vop94q)
 - Live Site URL: (https://easy-bank-drab.vercel.app/)
 
 ## My process
